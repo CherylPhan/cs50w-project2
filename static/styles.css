@@ -1,0 +1,52 @@
+#main-wrapper {
+    height: 100vh;
+}
+
+#sign-in-section {
+    height: 100vh;
+}
+
+#left {
+    width: 20rem;
+    padding: 2rem;
+    overflow: scroll;
+}
+
+#right {
+    width: calc(100vw - 20rem);
+    padding: 2rem;
+    overflow: scroll;
+}
+
+#chat-screen {
+    overflow: scroll;
+}
+
+#channel-list {
+    overflow: scroll;
+}
+
+#channel-list li {
+    margin-bottom: 0.75rem;
+}
+
+#channel-list a {
+    color: black;
+}
+
+#channel-list-wrapper {
+    height: 30rem;
+    overflow: scroll;
+}
+
+.first-line {
+    margin-bottom: 0;
+}
+
+.message i {
+    display: none;
+}
+
+.message:hover .delete-button {
+    display: inline;
+}
